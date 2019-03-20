@@ -1,0 +1,641 @@
+@media (min-width: 0px) and (max-width: 600px) { 
+
+	header{
+		margin-top: 10px;
+		height: auto;
+	}
+
+	.logo{
+		margin-top: 0px;
+		height: auto;
+	}
+
+	.logo img{ 
+		width: 87px;
+		height: auto;
+	}
+
+	.filter img{
+		width: 25px;
+		height: auto;
+	}
+
+	.menu img{
+		width: 30px;
+		height: auto;
+	}
+	
+	.menu-left-container{
+		display: none;
+	}
+
+	
+	.mac{
+		border-top: 0px solid #eee;
+		border-right: 0px solid #eee;
+	}
+
+	.dimond{
+		border-top: 2px solid #eee;
+	}
+
+	.key{
+		border-top: 2px solid #eee;
+		border-right: 0px solid #eee;
+		border-bottom: 0px solid #eee;
+	}
+
+	.hand{
+		border-top: 2px solid #eee;
+		border-bottom: 0px solid #eee;
+	}
+
+	.code{
+		border-right: 0px solid #eee;
+		border-bottom: 0px solid #eee;
+		border-top: 2px solid #eee;
+	}
+
+	
+	.menu-button .close{
+		outline: 1px solid #ff0000;
+	}
+
+	.cd-primary-nav-trigger{
+		top: 35px;
+	}
+
+	.menu-button{
+		margin-top: -80px;
+		top: 0;
+	}
+
+	.close{
+		margin-top: 20px;
+		top: 0;
+	}
+
+
+	.content{
+		margin-top: 20px;
+	}
+
+	.works img{
+		width: 100%;
+		height: auto;
+	}
+	
+	.cpal{
+		margin-top: 0px;
+	}
+
+	.mirror{
+		margin-top: 0px;
+	}
+
+	.btn-buy{
+		height: auto;
+		background: none;
+	}
+
+	.buy-button{
+		width: 290px;
+		height: 65px;
+		margin-left: 0px;
+		margin-top: 20px;
+		background-size: 280px auto;
+	}
+
+	.info-buy span{
+		width: 290px;
+		margin-left: 10px;
+		margin-top: 30px;
+	}
+
+
+	.liner{
+		margin-top: 50px;
+	}
+
+	.ftlogo{
+		margin-bottom: 10px;
+	}
+	.mobfilt{
+		display: block;
+		margin-top: 40px;
+		position: absolute;
+		z-index: 1231;
+	}
+
+
+	.mobfilt img{
+		width: 20px;
+		height: auto;
+	}
+
+
+	.fullfilt{
+		display: none;
+	}
+
+	/**work**/
+	.headcontent{
+		margin-top: 20px;
+		height: 60px;
+	}
+
+	.ttl-work{
+		margin-top: 20px;
+		font-size: 16px;
+	}
+
+	.backhome{
+		display: none;
+	}
+
+	.screen{
+		display: none;
+	}
+	
+	.content{
+		background: none;
+	}
+	.work{
+		margin-top: 0px;
+	}
+
+	.work img{
+		width: 100%;
+		height: auto;
+	}
+
+	.circle{
+		display: none;
+	}
+
+	.head-work{
+		margin-bottom: 50px;
+	}
+
+	.up{
+		display: none;
+	}
+
+	.year{
+		display: none;
+	}
+
+	.gopage{
+		padding-right: 0px;
+		margin-top: 60px;
+		padding-left: 0;
+		padding-bottom: 40px;
+	}
+
+	.butt-page{
+		width: 290px;
+		height: 67px;
+		background-size: 100% auto;
+	}
+
+
+}
+
+
+@media (min-width: 601px) and (max-width: 767px) { 
+	.menu-is-opened .menu-container .menu-left-container{
+		top: 82%;
+	}
+
+	header{
+		margin-top: 10px;
+		height: auto;
+	}
+
+	.logo{
+		margin-top: 0px;
+		height: auto;
+	}
+
+	.logo img{ 
+		width: 87px;
+		height: auto;
+	}
+
+	.filter img{
+		width: 25px;
+		height: auto;
+	}
+
+	.menu img{
+		width: 30px;
+		height: auto;
+	}
+	
+	.mac{
+		border-top: 0px solid #eee;
+		border-right: 0px solid #eee;
+	}
+
+	.dimond{
+		border-top: 2px solid #eee;
+	}
+
+	.key{
+		border-top: 2px solid #eee;
+		border-right: 0px solid #eee;
+		border-bottom: 0px solid #eee;
+	}
+
+	.hand{
+		border-top: 2px solid #eee;
+		border-bottom: 0px solid #eee;
+	}
+
+	.code{
+		border-right: 0px solid #eee;
+		border-bottom: 0px solid #eee;
+		border-top: 2px solid #eee;
+	}
+
+	.cd-primary-nav-trigger{
+		top: 40px;
+	}
+
+	.menu-button{
+		margin-top: -80px;
+		top: 0;
+	}
+
+	.close{
+		margin-top: 20px;
+		top: 0;
+	}
+
+	.content{
+		margin-top: 20px;
+	}
+
+	.works img{
+		width: 100%;
+		height: auto;
+	}
+
+	.img_block{
+		margin: 0 auto;
+	}
+
+	.btn-buy{
+		height: auto;
+		background: none;
+	}
+
+	.buy-button{
+		width: 290px;
+		height: 65px;
+		margin-left: 0px;
+		margin-top: 20px;
+		background-size: 280px auto;
+	}
+
+	.info-buy span{
+		width: 290px;
+		margin-left: 10px;
+		margin-top: 30px;
+	}
+
+
+	.liner{
+		margin-top: 50px;
+	}
+
+	.ftlogo{
+		margin-bottom: 10px;
+	}
+
+	.mobfilt{
+		display: block;
+		margin-top: 40px;
+		position: absolute;
+		z-index: 1231;
+	}
+
+
+	.mobfilt img{
+		width: 20px;
+		height: auto;
+	}
+
+
+	.fullfilt{
+		display: none;
+	}
+
+	.headcontent{
+		margin-top: 20px;
+		height: 60px;
+	}
+
+	.ttl-work{
+		margin-top: 20px;
+		font-size: 16px;
+	}
+
+	.backhome{
+		display: none;
+	}
+
+	.screen{
+		display: none;
+	}
+	
+	.content{
+		background: none;
+	}
+	.work{
+		margin-top: 0px;
+	}
+
+	.work img{
+		width: 100%;
+		height: auto;
+	}
+
+	.circle{
+		display: none;
+	}
+
+	.head-work{
+		margin-bottom: 50px;
+	}
+
+	.up{
+		display: none;
+	}
+
+	.year{
+		display: none;
+	}
+
+	.gopage{
+		padding-right: 0px;
+		margin-top: 60px;
+		padding-left: 0;
+		padding-bottom: 40px;
+	}
+
+	.butt-page{
+		width: 290px;
+		height: 67px;
+		background-size: 100% auto;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 990px) { 
+
+
+	header{
+		margin-top: 10px;
+		height: auto;
+	}
+
+	.logo{
+		margin-top: 0px;
+		height: auto;
+	}
+
+	.logo img{ 
+		width: 87px;
+		height: auto;
+	}
+
+	.filter img{
+		width: 25px;
+		height: auto;
+	}
+
+	.menu img{
+		width: 30px;
+		height: auto;
+	}
+	
+	.mac{
+		border-top: 0px solid #eee;
+		border-right: 0px solid #eee;
+	}
+
+	.dimond{
+		border-top: 2px solid #eee;
+	}
+
+	.key{
+		border-top: 2px solid #eee;
+		border-right: 0px solid #eee;
+		border-bottom: 0px solid #eee;
+	}
+
+	.hand{
+		border-top: 2px solid #eee;
+		border-bottom: 0px solid #eee;
+	}
+
+	.code{
+		border-right: 0px solid #eee;
+		border-bottom: 0px solid #eee;
+		border-top: 2px solid #eee;
+	}
+
+
+
+	.menu-button{
+		margin-top: -80px;
+		top: 0;
+	}
+
+	.close{
+		margin-top: 20px;
+		top: 0;
+	}
+
+	.content{
+		margin-top: 20px;
+	}
+
+	.works img{
+		width: 100%;
+		height: auto;
+	}
+
+	.cpal{
+		margin-top: -79px;
+	}
+
+	.mirror{
+		margin-top: -29px;
+	}
+
+	.img_block{
+		margin: 0 auto;
+	}
+
+	.btn-buy{
+		width: 290px;
+		height: auto;
+		background: none;
+	}
+
+	.buy-button{
+		width: 290px;
+		height: 65px;
+		margin-left: 0px;
+		margin-top: 20px;
+		background-size: 280px auto;
+	}
+
+	.info-buy span{
+		width: 600px;
+		margin-left: 10px;
+		margin-top: 30px;
+	}
+
+
+	.liner{
+		margin-top: 50px;
+	}
+
+	.ftlogo{
+		margin-bottom: 10px;
+	}
+	.cd-primary-nav{
+		position: fixed;
+		width: 1000px;
+		height: 100%;	
+	}
+
+	.mobfilt{
+		display: block;
+		margin-top: 40px;
+		position: absolute;
+		z-index: 1231;
+	}
+
+
+	.mobfilt img{
+		width: 20px;
+		height: auto;
+	}
+
+
+	.fullfilt{
+		display: none;
+	}
+	.screen{
+		display: none;
+	}
+	.content{
+		background: none;
+	}
+	.work img{
+		width: 100%;
+		height: auto;
+	}
+	.backhome{
+		display: none;
+	}
+	.work{
+		margin-top: 20px;
+	}
+	.up{
+		display: none;
+	}
+
+	.gopage{
+		padding-right: 0px;
+		margin-top: 60px;
+		padding-left: 0;
+		padding-bottom: 50px;
+	}
+
+
+	.headcontent{
+		margin-top: 20px;
+		height: 60px;
+	}
+
+	.ttl-work{
+		margin-top: 20px;
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 991px) and (max-width: 1200px) { 
+
+	.screen{
+		display: none;
+	}
+	.content{
+		background: none;
+	}
+	.work img{
+		width: 100%;
+		height: auto;
+	}
+	.backhome{
+		display: none;
+	}
+	.work{
+		margin-top: 20px;
+	}
+	.up{
+		display: none;
+	}
+
+	.gopage{
+		padding-right: 0px;
+		margin-top: 60px;
+		padding-left: 0;
+		padding-bottom: 50px;
+	}
+
+
+	.headcontent{
+		margin-top: 20px;
+		height: 60px;
+	}
+
+	.ttl-work{
+		margin-top: 20px;
+		font-size: 16px;
+	}
+}
+
+	
+
+@media (min-height: 665px) and (max-height: 850px) { 
+	.menu-container .menu-left-container {
+		top: 80%;
+	}
+
+}
+
+@media (min-height: 530px) and (max-height: 664px) { 
+	.menu-container .menu-left-container {
+		top: 75%;
+	}
+
+}
+
+@media (min-height: 435px) and (max-height: 529px) { 
+	.menu-container .menu-left-container {
+		top: 70%;
+	}
+
+}
+
+@media (min-height: 0px) and (max-height: 434px) { 
+	.menu-container .menu-left-container {
+		top: 65%;
+	}
+
+}

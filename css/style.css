@@ -1,0 +1,816 @@
+@font-face {
+    font-family: Open Sans;
+    src:url(../fonts/OpenSans-Light.ttf), url(../fonts/OpenSans-Bold.ttf), url(../fonts/OpenSans-Semibold.ttf), url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: Blogger Sans;
+    src:url(../fonts/Blogger_Sans-Bold.otf);
+    font-weight: bold;
+    font-style: bold;
+}
+@font-face {
+    font-family: Blogger Sans;
+    src:url(../fonts/Blogger_Sans-Light.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: jaznr;
+    src:url(../fonts/jaznr.ttf);
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: rgba(255,255,255,1);
+}
+
+::-webkit-scrollbar-thumb {
+	background: #e5e3cc;
+}
+
+.menu-is-opened ::-webkit-scrollbar-track {
+	background: rgba(255,255,255,1);
+}
+
+.menu-is-opened ::-webkit-scrollbar-thumb {
+	background: #e5e3cc;
+}
+
+.filter-img{
+	width: 27px;
+	height: 37px;
+}
+
+.menu-img{
+	width: 49px;
+	height: 37px;
+}
+
+.up-img{
+	width: 75px;
+	height: 77px;
+}
+
+.smile-img{
+	width: 180px;
+	height: 180px;
+}
+
+.smileimg{fill:#fff;}
+
+.filtimg1{isolation:isolate;}.filtimg2{fill:#1f1f1f;fill-rule:evenodd;}
+.menuimg1{isolation:isolate;}.menuimg2{fill:#1f1f1f;fill-rule:evenodd;}
+.up1{isolation:isolate;}.up2{fill:#ccc8a2;fill-rule:evenodd;}
+
+@media screen and (max-width: 860px) {
+	.menu-is-opened ::-webkit-scrollbar-track {
+		background: rgba(255,255,255,1)
+	}
+	.menu-is-opened ::-webkit-scrollbar-thumb {
+		background: #e5e3cc;
+	}
+}
+
+
+.tooltip{
+	font-family: jaznr;
+	font-size: 20px;
+}
+
+
+
+body{
+	font:14px Open Sans, Verdana, Arial, Tahoma, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background: #fffef5;
+	color: #000;
+}
+
+header{
+	height: 197px;
+	margin-top: 70px;
+}
+
+
+.logo{
+	text-align: center;
+}
+
+.filter{
+	padding-left: 0px;
+	float: left;
+	margin-top: 80px;
+}
+
+.menu img{
+	float: right;
+}
+
+
+.content{
+	margin-top: 140px;
+}
+
+.works{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.img_block {
+    width:auto;
+    height: auto;
+    background:#f6f6f6;
+    text-align:center;
+    font-weight:400;
+    display:block;
+    overflow: hidden;
+    position: relative;
+    -moz-transition: all .4s;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+    cursor:pointer;
+}
+.img_block .over_block {
+    background-color:rgba(0, 160, 150, 0);
+    width:90%;
+    height:90%;
+    position:absolute;
+    top:5%;
+    left:5%;
+    z-index: 9900;
+    -moz-transition:all 1s;
+    -webkit-transition:all 1s;
+    -o-transition:all 1s;
+    transition:all 1s;
+}
+.img_block:hover .over_block {
+    display:block;
+    background-color:#329fe5;
+    opacity: 0.9;
+}
+.img_block span {
+    background: none;
+    width:auto;
+    height:0px;
+    font-size:36px;
+    font-weight: bold;
+    position:absolute;
+    display:block;
+    overflow: hidden;
+    bottom:0px;
+    left:10%;
+    color: #fff;
+    z-index: 9910;
+    text-align: left;
+    -moz-transition: all .4s;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+}
+.img_block:hover span {
+    bottom:20%;
+    left: 10%;
+    height:auto;
+    color: #ffffff;
+}
+
+.category{
+	font-size: 18px;
+	font-weight: normal;
+	margin-top: 20px;
+	border: 2px solid #fffef5;
+	padding: 5px 5px 5px 5px; 
+	max-width: 180px;
+}
+
+.logocat{
+	width: 85px;
+}
+
+.sait{
+	width: 55px;
+}
+
+.checkout-block{
+	padding-right: 0;
+	padding-left: 0;
+	background: #fbfaee;
+	height: 260px;
+}
+
+.checkout-butt{
+	width: 331px;
+	height: 77px;
+	position: absolute;
+	top: 95px;
+	left: 110px;
+}
+
+.checkout-butt:hover .checkout {
+	border-color: #37B0FD;
+	color: #37B0FD;
+}
+
+.checkout-butt:hover .triangle>.triangle-img{
+	stroke: #37B0FD;
+}
+
+.checkout{
+	width: 299px;
+	height: 77px;
+	border-top: 3px solid #000;
+	border-bottom: 3px solid #000;
+	border-left: 3px solid #000;
+	color: #000;
+	float: left;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-family: "Blogger Sans";
+	font-weight: bold;
+	padding-left: 28px;
+	line-height: 2.4;
+}
+
+.checkout span{
+	font-weight: normal;
+}
+
+
+.triangle-img{fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:3px;}
+
+
+.triangle{
+	width: 32px;
+	height: 77px;
+}
+
+
+
+.info-buy{
+	padding-right: 0;
+	padding-left: 0;
+	font-size: 16px;
+	font-weight: normal;
+	color: #1f1f1f;
+	font-family: Open Sans;
+	line-height: 1.8;
+}
+
+.info-buy span{
+	display: block;
+	width: 445px;
+	margin-left: 70px;
+	margin-top: 77px;
+}
+
+.liner{
+	margin-top: 100px;
+	margin-bottom: 60px;
+}
+
+
+.line{
+	background: url(../img/line.png);
+	height: 13px;
+	background-repeat: repeat-x;
+}
+
+.ftlogo{
+	text-align: center;
+	height: 86px;
+	margin-bottom: 60px;
+}
+
+
+	
+/* --------------------------------------------------- */
+/* ------- Кнопка открытия бокового меню начало ------ */
+/* --------------------------------------------------- */
+
+ .menu-button {
+	height: 49px;
+	width: 37px;
+	cursor: pointer;
+	margin-top: 80px;
+	float: right;
+	z-index: 9920;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transition-delay: 0s;
+	-o-transition-delay: 0s;
+	transition-delay: 0s;
+	-webkit-transition-property: all;
+	-o-transition-property: all;
+	transition-property: all;
+	-webkit-transition-timing-function: cubic-bezier(0.645, 0.045, 0.095, 1.08);
+	-o-transition-timing-function: cubic-bezier(0.645, 0.045, 0.095, 1.08);
+	transition-timing-function: cubic-bezier(0.645, 0.045, 0.095, 1.08);
+	-webkit-transition-duration: 800ms;
+	-o-transition-duration: 800ms;
+	transition-duration: 800ms;
+}
+
+.close{
+	position: absolute;
+	right: 0;
+	margin-top: 0px;
+	position: fixed;
+}
+
+
+
+
+@media screen and (max-width: 1366px) {
+	.menu-is-opened .menu-button {
+		right: calc(70% + 54px);
+	}
+}
+
+@media screen and (max-width: 860px) {
+	.menu-is-opened .menu-button {
+		right: 5px;
+
+	}
+}
+
+@media screen and (max-width: 730px) {
+	body .menu-button {
+		right: 12px;
+		top: 12px;
+	}
+}
+
+/* --------------------------------------------------- */
+/* ------- Кнопка открытия бокового меню конец ------- */
+/* --------------------------------------------------- */
+
+
+
+
+
+
+/* --------------------------------------------------- */
+/* ------ Оверлей появления бокового меню начало ----- */
+/* --------------------------------------------------- */
+
+
+ .overlay {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: 9930;
+	background: rgba(0,0,0,0.7);
+	visibility: hidden;
+	opacity: 0;
+	top: 0;
+	right: 0;
+	overflow-x: hidden;
+	overflow-y: visible;
+	-webkit-transition-delay: 0s;
+	-o-transition-delay: 0s;
+	transition-delay: 0s;
+	-webkit-transition-property: all;
+	-o-transition-property: all;
+	transition-property: all;
+	-webkit-transition-timing-function: cubic-bezier(0.645, 0.045, 0.095, 1.08);
+	-o-transition-timing-function: cubic-bezier(0.645, 0.045, 0.095, 1.08);
+	transition-timing-function: cubic-bezier(1.08, 0.095, 0.045, 0.645);
+	-webkit-transition-duration: 800ms;
+	-o-transition-duration: 800ms;
+	transition-duration: 800ms;
+}
+
+
+.menu-is-opened .overlay {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transition-timing-function: cubic-bezier(50.645, 0.045, 0.095, 1.08);
+	-o-transition-timing-function: cubic-bezier(50.645, 0.045, 0.095, 1.08);
+	transition-timing-function: cubic-bezier(50.645, 0.045, 0.095, 1.08);
+	-webkit-transition-delay: 0s;
+	-o-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+/* ----- Скрываем скролл если меню открыто начало ----- */
+.menu-is-opened {
+	overflow: hidden;
+}
+.menu-is-opened body {
+	overflow: hidden;
+}
+/* ----- Скрываем скролл если меню открыто конец ----- */
+
+/* --------------------------------------------------- */
+/* ------ Оверлей появления бокового меню конец ------ */
+/* --------------------------------------------------- */
+
+
+
+
+/* --------------------------------------------------- */
+/* --------- Контейнер бокового меню начало ---------- */
+/* --------------------------------------------------- */
+
+.menu-container {
+	top: 0;
+	right: 0;
+	z-index: 9940;
+	position: absolute;
+	min-height: 100%;
+	width: 70%;
+	max-width: 800px;
+	padding-right: 106px;
+	background: #eee;
+	right: -70%;
+	border-left: 4px solid #37b0fd;
+	-webkit-transition-delay: 0s;
+	-o-transition-delay: 0s;
+	transition-delay: 0s;
+	-webkit-transition-property: all;
+	-o-transition-property: all;
+	transition-property: all;
+	-webkit-transition-timing-function: cubic-bezier(0.645, 0.045, 0.095, 1.08);
+	-o-transition-timing-function: cubic-bezier(0.645, 0.045, 0.095, 1.08);
+	transition-timing-function: cubic-bezier(0.645, 0.045, 0.095, 1.08);
+	-webkit-transition-duration: 800ms;
+	-o-transition-duration: 800ms;
+	transition-duration: 800ms;
+}
+
+.menu-is-opened .menu-container {
+	right: 0;
+	-webkit-transition-timing-function: cubic-bezier(50.645, 0.045, 0.095, 1.08);
+	-o-transition-timing-function: cubic-bezier(50.645, 0.045, 0.095, 1.08);
+	transition-timing-function: cubic-bezier(50.645, 0.045, 0.095, 1.08);
+}
+
+
+@media screen and (max-width: 860px) {
+	.menu-container {
+		width: 100%;
+		right: 0;
+		border-left: 0px;
+	}
+}
+
+@media screen and (max-width: 430px) {
+	.menu-container {
+		top: 0;
+		right: 0;
+		padding-right: 0;
+		padding-top: 106px;
+	}
+}
+
+/* --------- Кнопка закрытия бокового меню начало ---------- */
+.menu-container .menu-button {
+	top: 30px;
+	right: -70%;
+	background: none !important;
+	-webkit-transition-delay: 0s;
+	-o-transition-delay: 0s;
+	transition-delay: 0s;
+	-webkit-transition-property: all;
+	-o-transition-property: all;
+	transition-property: all;
+	-webkit-transition-timing-function: cubic-bezier(0.645, 0.045, 0.095, 1.08);
+	-o-transition-timing-function: cubic-bezier(0.645, 0.045, 0.095, 1.08);
+	transition-timing-function: cubic-bezier(0.645, 0.045, 0.095, 1.08);
+	-webkit-transition-duration: 800ms;
+	-o-transition-duration: 800ms;
+	transition-duration: 800ms;
+}
+
+.menu-is-opened .menu-container .menu-button {
+	right: 30px;
+	-webkit-transition-timing-function: cubic-bezier(50.645, 0.045, 0.095, 1.08);
+	-o-transition-timing-function: cubic-bezier(50.645, 0.045, 0.095, 1.08);
+	transition-timing-function: cubic-bezier(50.645, 0.045, 0.095, 1.08);
+}
+
+
+
+/* --------- Левая колонка бокового меню конец ---------- */
+
+
+
+/* --------- Правая колонка бокового меню начало ---------- */
+.menu-container .menu-right-content {
+	background: #fff;
+	overflow: hidden;
+}
+
+
+
+
+
+@media screen and (max-width: 550px) {
+	.menu-container .menu-right-content .menu-section.contacts p {
+		padding-right: 0;
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 430px) {
+	.menu-container .menu-right-content .menu-section {
+		padding: 11px 30px 14px 40px;
+	}
+}
+
+/* --------- Правая колонка бокового меню конец ---------- */
+
+.menu-container .menu-left-container {
+	position: fixed;
+	right: -100%;
+	top: 85%;
+	height: 100%;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-transition-delay: 0s;
+	-o-transition-delay: 0s;
+	transition-delay: 0s;
+	-webkit-transition-property: all;
+	-o-transition-property: all;
+	transition-property: all;
+	-webkit-transition-timing-function: cubic-bezier(0.645, 0.045, 0.095, 1.08);
+	-o-transition-timing-function: cubic-bezier(0.645, 0.045, 0.095, 1.08);
+	transition-timing-function: cubic-bezier(0.645, 0.045, 0.095, 1.08);
+	-webkit-transition-duration: 800ms;
+	-o-transition-duration: 800ms;
+	transition-duration: 800ms;
+}
+
+.menu-is-opened .menu-container .menu-left-container {
+	right: 25px;
+	-webkit-transition-timing-function: cubic-bezier(50.645, 0.045, 0.095, 1.08);
+	-o-transition-timing-function: cubic-bezier(50.645, 0.045, 0.095, 1.08);
+	transition-timing-function: cubic-bezier(50.645, 0.045, 0.095, 1.08);
+}
+
+@media screen and (max-width: 430px) {
+	.menu-container .menu-left-container {
+		position: relative;
+		right: 0 !important;
+		top: 0;
+		padding-right: 70px;
+	}
+}
+
+@media screen and (max-width: 430px) {
+	.menu-container .menu-left-container {
+		position: fixed;
+		opacity: 1;
+		z-index: 3;
+		right: 0;
+		top: 0;
+		width: 100%;
+		height: 106px;
+		background: #f7f7f7;
+	}
+}
+
+
+/* --------------------------------------------------- */
+/* --------- Контейнер бокового меню конец ----------- */
+/* --------------------------------------------------- */
+
+
+
+
+@media screen and (min-width: 1160px) {
+
+	.menu-container,
+	.menu-container .menu-button {
+		right: -800px;
+	}
+
+	.menu-is-opened .ip-header,
+	.menu-is-opened .front-about-box,
+	.menu-is-opened .page-content {
+		right: 800px;
+	}
+
+	.menu-is-opened .menu-button {
+		right: calc(800px + 54px);
+	}
+
+}
+
+@media screen and (max-width: 1160px) {
+	.menu-container .menu-right-content .menu-section .bordered-item > span {
+		font-size: 96%;
+	}
+}
+
+
+.ttl-part{
+	font-size: 25px;
+	color: #37b0fd;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+
+.info-contact ul{
+	color: #000;
+	font-size: 18px;
+	list-style: none;
+	padding-left: 0px;
+	margin-left: 10px;
+}
+
+.info-contact ul li{
+	font-weight: normal;
+	margin-top: 20px;
+}
+
+.info-contact ul li img{
+	margin-left: 5px;
+	margin-top: -2px;
+}
+
+.info-contact ul li span{
+	font-weight: bold;
+}
+
+
+.about p{
+	font-size: 14px;
+	color: #000;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.ttl-service{
+	margin-bottom: 40px;
+}
+
+.blockcatalog img{
+	margin-top: 40px;
+}
+
+.catalog-info{
+	color: #000;
+	font-size: 18px;
+	margin-top: 5px;
+	font-family: Open Sans;
+}
+
+.catalog-moreinfo{
+	color: #37b0fd;
+	font-size: 14px;
+	margin-top: 5px;
+	margin-bottom: 40px;
+	font-family: Open Sans;
+}
+
+.mac{
+	border-top: 2px solid #eee;
+	border-right: 2px solid #eee;
+	cursor: pointer;
+}
+
+.dimond{
+	border-top: 2px solid #eee;
+	cursor: pointer;
+}
+
+.key{
+	border-top: 2px solid #eee;
+	border-right: 2px solid #eee;
+	border-bottom: 2px solid #eee;
+	cursor: pointer;
+}
+
+.hand{
+	border-top: 2px solid #eee;
+	border-bottom: 2px solid #eee;
+	cursor: pointer;
+}
+
+.code{
+	border-right: 2px solid #eee;
+	border-bottom: 2px solid #eee;
+	cursor: pointer;
+}
+
+
+
+
+/* The Overlay (background) */
+.overlayfilter {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+    height: 0;
+    width: 100%;
+    position: fixed; /* Stay in place */
+    z-index: 100000; /* Sit on top */
+    left: 0;
+    overflow-y: hidden;
+    top: 0;
+    background: rgba(255,255,255,0.6);
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 10%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlayfilter a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #000;
+    display: block; /* Display block instead of inline */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlayfilter a:hover {
+    color: #329fe5;
+    font-weight: bold;
+}
+
+/* Position the close button (top right corner) */
+.closebtn {
+    position: absolute;
+    border: 0;
+    outline: 0;
+    width: 22px;
+    height: 22px;
+    top: 20px;
+    right: 50%;
+    font-size: 60px !important; /* Override the font-size specified earlier (36px) for all navigation links */
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlayfilter a {font-size: 20px}
+    .closebtn {
+        font-size: 40px !important;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+.mobfilt{
+	display: none;
+}
+
+.fullfilt{
+	cursor: pointer;
+}
+.smile{
+	text-align: center;
+}
+
+.ttl-404{
+	text-align: center;
+	font-size: 72px;
+	font-weight: bold;
+	font-family: Open Sans;
+	margin-top: 20px;
+}
+
+.ttlinfo-404{
+	text-align: center;
+	font-size: 52px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.info-404{
+	text-align: center;
+	font-size: 32px;
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
+
+.info-404 a{
+	color: #000;
+}

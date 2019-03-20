@@ -1,0 +1,28 @@
+#page-preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    z-index: 100500;
+}
+
+#page-preloader .spinner {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    left: 45%;
+    top: 20%;
+    background: url('../img/preloader.gif') no-repeat 50% 50%;
+}
+
+
+@media (min-width: 0px) and (max-width: 320px) { 
+
+    #page-preloader .spinner {
+        left: 25%;
+        top: 5%;
+        background: url('../img/preloader.gif') no-repeat 50% 50%;
+    }
+}

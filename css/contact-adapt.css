@@ -1,0 +1,431 @@
+@media (min-width: 0px) and (max-width: 600px) { 	
+	header{
+		margin-top: 10px;
+		height: auto;
+	}
+
+	.back{
+		margin-top: 0px;
+		position: relative;
+		top: 45px;
+	}
+
+	.back a{
+		font-size: 14px;
+	}
+
+	.logo img{
+		width: 57px;
+		height: auto;
+	}
+
+	.fb{
+		margin-top: 0px;
+	}
+
+	.fb img{
+		width: 40px;
+		height: auto;
+		position: relative;
+		top: -50px;
+	}
+
+	.fbmob{
+		display: block; 
+	}
+
+	.fbfull{
+		display: none; 
+	}
+
+	.stepsForm .sf-content{
+		margin-top: 0px;
+	}
+
+	.ttl-name{
+		font-size: 14px;
+	}
+
+	.ttl-name span{
+		font-size: 14px;
+	}
+
+	.stepsForm .sf-steps-content>div{
+		width: 15px;
+		height: 15px;
+		background: #f6f5ea;
+		left: 70%;
+		top: 20px;
+	}
+
+	.stepsForm .sf-button{
+		height: 57px;
+		width: 120px;
+		background-size: 120px auto;
+		margin-top: 30px;
+		float: right;
+	}
+
+	.stepsForm .sf-button:hover{
+		background-size: 120px auto;
+	}
+
+	.ttl-email{
+		font-size: 14px;
+	}
+
+	.ttl-email span{
+		font-size: 14px;
+	}
+
+	.ttl-service{
+		font-size: 14px;
+		margin-top: 20px;
+	}
+
+	.ttl-service span{
+		font-size: 14px;
+	}	
+
+
+	.ttl-work{
+		font-size: 14px;
+		position: relative;
+		top: 25px;
+	}
+
+	.info-work{
+		position: relative;
+		left: 155px;
+		width: 130px;
+		font-size: 12px;
+		top: 25px;
+	}
+
+	.key-work{
+		position: relative;
+		left: 137px;
+	}
+
+	.ttl-massage{
+		font-size: 14px;
+	}
+
+	.ttl-massage span{
+		font-size: 14px;
+	}
+
+	.massage{
+		font-size: 14px;
+		margin-top: 30px;
+		max-width: 100%;
+	}
+
+	.stepsForm #sf-msg{
+		top: 65px;
+		right: 70px;
+		font-size: 12px;
+	}
+}	
+
+@media (min-width: 601px) and (max-width: 767px) { 	
+	header{
+		margin-top: 10px;
+		height: auto;
+	}
+
+	.back{
+		margin-top: 0px;
+		position: relative;
+		top: 45px;
+	}
+
+	.back a{
+		font-size: 14px;
+	}
+
+	.logo img{
+		width: 57px;
+		height: auto;
+	}
+
+	.fb{
+		margin-top: 0px;
+	}
+
+	.fb img{
+		width: 40px;
+		height: auto;
+		position: relative;
+		top: -50px;
+	}
+
+	.fbmob{
+		display: block; 
+	}
+
+	.fbfull{
+		display: none; 
+	}
+
+	.stepsForm .sf-content{
+		margin-top: 0px;
+	}
+
+	.ttl-name{
+		font-size: 20px;
+	}
+
+	.ttl-name span{
+		font-size: 20px;
+	}
+
+	.stepsForm .sf-steps-content>div{
+		width: 15px;
+		height: 15px;
+		background: #f6f5ea;
+		-moz-border-radius: 50px;
+		-webkit-border-radius: 50px;
+		border-radius: 50px;
+		left: 60%;
+		top: 20px;
+	}
+
+	.stepsForm .sf-button{
+		height: 57px;
+		width: 120px;
+		background-size: 120px auto;
+		margin-top: 30px;
+		float: right;
+	}
+
+	.stepsForm .sf-button:hover{
+		background-size: 120px auto;
+	}
+
+	.ttl-email{
+		font-size: 20px;
+	}
+
+	.ttl-email span{
+		font-size: 20px;
+	}
+
+	.ttl-service{
+		font-size: 20px;
+	}
+
+	.ttl-service span{
+		font-size: 20px;
+	}	
+
+
+	.ttl-work{
+		font-size: 21px;
+		position: relative;
+		top: 35px;
+	}
+
+	.info-work{
+		position: relative;
+		left: 155px;
+		font-size: 18px;
+		top: 35px;
+	}
+
+
+
+	.ttl-massage{
+		font-size: 20px;
+	}
+
+	.ttl-massage span{
+		font-size: 20px;
+	}
+
+	.massage{
+		font-size: 16px;
+		margin-top: 30px;
+		max-width: 100%;
+	}
+
+	.stepsForm #sf-msg{
+		top: 50px;
+		right: 20px;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 990px) { 	
+	header{
+		margin-top: 10px;
+		height: auto;
+	}
+
+	.back{
+		margin-top: 0px;
+		position: relative;
+		top: 45px;
+	}
+
+	.back a{
+		font-size: 14px;
+	}
+
+	.logo img{
+		width: 57px;
+		height: auto;
+	}
+
+	.fb{
+		margin-top: 0px;
+	}
+
+	.fb img{
+		width: 40px;
+		height: auto;
+		position: relative;
+		top: -50px;
+	}
+
+	.fbmob{
+		display: block; 
+	}
+
+	.fbfull{
+		display: none; 
+	}
+
+	.stepsForm .sf-content{
+		margin-top: 0px;
+	}
+
+	.ttl-name{
+		font-size: 20px;
+	}
+
+	.ttl-name span{
+		font-size: 20px;
+	}
+
+	.stepsForm .sf-steps-content>div{
+		width: 15px;
+		height: 15px;
+		background: #f6f5ea;
+		-moz-border-radius: 50px;
+		-webkit-border-radius: 50px;
+		border-radius: 50px;
+		left: 90%;
+		top: 20px;
+	}
+
+	.stepsForm .sf-button{
+		height: 57px;
+		width: 120px;
+		background-size: 120px auto;
+		margin-top: 30px;
+		float: right;
+	}
+
+	.stepsForm .sf-button:hover{
+		background-size: 120px auto;
+	}
+
+	.ttl-email{
+		font-size: 20px;
+	}
+
+	.ttl-email span{
+		font-size: 20px;
+	}
+
+	.ttl-service{
+		font-size: 20px;
+	}
+
+	.ttl-service span{
+		font-size: 20px;
+	}	
+
+
+	.ttl-work{
+		font-size: 21px;
+		position: relative;
+		top: 35px;
+	}
+
+	.info-work{
+		position: relative;
+		left: 155px;
+		font-size: 18px;
+		top: 35px;
+	}
+
+
+
+	.ttl-massage{
+		font-size: 20px;
+	}
+
+	.ttl-massage span{
+		font-size: 20px;
+	}
+
+	.massage{
+		font-size: 16px;
+		margin-top: 30px;
+		max-width: 100%;
+	}
+
+	.stepsForm #sf-msg{
+		top: 50px;
+		right: 20px;
+	}
+}
+
+@media (min-width: 400px) and (max-width: 600px){
+	.stepsForm .sf-steps-content>div{
+		left: 80%;
+	}
+}
+
+@media (min-width: 601px) and (max-width: 767px){
+	.stepsForm .sf-steps-content>div{
+		left: 85%;
+	}
+}
+
+@media (min-width: 360px) and (max-width: 400px){
+	.stepsForm #sf-msg{
+		top: 65px;
+		right: 50px;
+	}
+}
+
+@media (min-width: 401px) and (max-width:459px){
+	.stepsForm #sf-msg{
+		top: 65px;
+		right: 25px;
+	}
+}
+
+@media (min-width: 460px) and (max-width:500px){
+	.stepsForm #sf-msg{
+		top: 60px;
+		right: 0px;
+	}
+}
+
+@media (min-width: 501px) and (max-width:530px){
+	.stepsForm #sf-msg{
+		top: 60px;
+		right: -25px;
+	}
+}
+
+@media (min-width: 531px) and (max-width:600px){
+	.stepsForm #sf-msg{
+		top: 50px;
+		right: 10px;
+	}
+}

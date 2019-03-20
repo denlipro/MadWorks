@@ -1,0 +1,22 @@
+.content{
+	background: #fff;
+	background-position: top center;
+	margin-top: 0px;
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+	background: #e7ebec;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: relative;
+	left: -50px;
+	z-index: 3;
+	float: left;
+}
+
+.pagenum{
+	color: #000;
+}

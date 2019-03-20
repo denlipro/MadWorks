@@ -1,0 +1,18 @@
+.content{
+	background: url(../img/el-javi/bgeljavi.png) no-repeat;
+	background-position: top center;
+	margin-top: 0px;
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+	background: #ef0a61;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: relative;
+	left: -50px;
+	z-index: 3;
+	float: left;
+}

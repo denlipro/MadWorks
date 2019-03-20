@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MadWorks - Оформление заказа</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="css/preload.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/contact-adapt.css">
+</head>
+<body cz-shortcut-listen="true">
+<div id="page-preloader"><span class="spinner"></span></div>
+<script src="js/preload.js"></script> 
+<header>
+   	<div class="container">
+   		<div class="col-md-4 back"><a href="index.html">На главную</a></div>
+   		<div class="col-md-4 logo"><a href="index.html"><img src="img/logo-contact.png" alt=""></a></div>
+   		<div class="col-md-4 fb"><a href="" class="fbinfo fbfull" data-toggle="tooltip" data-placement="left" title="Написать в facebook"><img src="img/fb.png" alt=""></a><a href="" class="fbmob"><img src="img/fb.png" alt=""></a></div>
+   	</div>
+</header>
+	<div class="conetent">
+		<div class="container">
+			<div class="cold-md-12">
+				<div class="stepsForm">
+            <form method="post" class="forms"> 
+                <div class="sf-steps">
+                    <div class="sf-steps-content">
+                    	<div>
+                        	
+                        </div>
+                        <div>
+                        	
+                        </div>
+                        <div>
+                        
+                        </div>
+                        <div>
+                        	
+                        </div>
+                        <div>
+                            
+                        </div>
+                    </div>
+                </div>                
+                <div class="sf-steps-form sf-radius"> 
+                 <ul class="sf-content"> 
+                         <li><div class="ttl-name">Ваше имя:<span>*</span></div>
+                            <div class="">
+                                <input type="text" placeholder="Владислав Обухов" data-required="true" class="name" name="name">
+                            </div>
+                         </li>
+                    </ul>
+                    
+                    <ul class="sf-content"> 
+                         <li><div class="ttl-email">Ваш e-mail:<span>*</span></div>
+                            <div class="">
+                                <input type="text" placeholder="E-mail" data-required="true" data-email="true" class="email" name="email">
+                            </div>
+                         </li>
+                    </ul>
+                    <ul class="sf-content"> 
+                         <li><div class="ttl-email">Ваш телефон:<span>*</span></div>
+                            <div class="">
+                               <input type="text" placeholder="+994 55 314 13 12" data-required="true" name="telephone" class="name" onkeyup="this.value = this.value.replace (/[^0-9+]/, '')">
+                            </div>
+                         </li>
+                    </ul>
+
+                    <ul class="sf-content"> 
+                         <li><div class="ttl-service">Какая услуга вас интересует:<span>*</span></div>
+                            <div class="">
+                                <div class="col-md-4 service">
+                                    <div class="radio">
+                                        <input id="mac" type="radio" name="service" value="Разработка дизайна">
+                                        <label for="mac" class="mac-form"></label>
+                                    </div>
+                                    <div class="ttl-work">Разработка дизайна</div> <div class="info-work">создание уникальных макетов</div>
+                                </div>
+                                <div class="col-md-4 service">
+                                    <div class="radio">
+                                        <input id="key" type="radio" name="service" value="Сайты под ключ">
+                                        <label for="key" class="key-form"></label>
+                                    </div>
+                                    <div class="ttl-work">Сайты под ключ</div> <div class="info-work key-work">выгодно, быстро и красиво</div>
+                                </div>
+                                <div class="col-md-4 service">
+                                    <div class="radio">
+                                        <input id="code" type="radio" name="service" value="Вёрстка сайтов">
+                                        <label for="code" class="code-form"></label>
+                                    </div>
+                                    <div class="ttl-work">Вёрстка сайтов</div><div class="info-work key-work">под разные CMS</div></div>
+                                <div class="col-md-4 service">
+                                    <div class="radio">
+                                        <input id="diamond" type="radio" name="service" value="Создание логотипов">
+                                        <label for="diamond" class="diamond-form"></label>
+                                    </div>
+                                    <div class="ttl-work">Создание логотипов</div> <div class="info-work">логотипы с "чистого листа"</div>
+                                </div>
+                                <div class="col-md-4 service">
+                                    <div class="radio">
+                                        <input id="hand" type="radio" name="service" value="Дизайн соц. сетй">
+                                        <label for="hand" class="hand-form"></label>
+                                    </div>
+                                    <div class="ttl-work">Дизайн соц. сетй</div> <div class="info-work key-work">оригинальное оформление</div>
+                                </div>
+                            </div>
+                         </li>
+                    </ul>
+    
+                   
+                    
+                    <ul class="sf-content">
+                         <li><div class="ttl-massage">Ваше пожелание:<span>*</span></div>
+                            <div class="">
+                                <textarea placeholder="Ваше сообщение" name="message" data-required="true" class="massage"></textarea>
+                            </div>
+                         </li>
+                    </ul>
+                    
+                </div>
+                
+                <div class="sf-steps-navigation sf-align-right">
+                	<span id="sf-msg" class="sf-msg-error"></span>
+                    <button id="sf-next" type="button" class="sf-button"></button>
+                </div>
+            </form>
+        </div>
+			</div>
+		</div>
+	</div>
+ 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/stepsForm.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>
